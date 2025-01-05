@@ -17,9 +17,13 @@ Setup Instructions
 
 Step 1: Clone the Repository
 
-``` git clone https://github.com/vinod8833/Virtual-Art-Gallery.git
+``` bash
+ git clone https://github.com/vinod8833/Virtual-Art-Gallery.git
+```
 
-### cd Virtual-Art-Gallery.git
+``` bash
+    cd Virtual-Art-Gallery.git
+```
 
 Step 2: Install Dependencies
 
