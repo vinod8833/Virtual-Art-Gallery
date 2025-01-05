@@ -1,0 +1,146 @@
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h5, h6 {
+  font-size: 2rem; 
+  font-weight: bold;
+  color: #380303;
+  margin-top: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f58823;
+  color: rgb(8, 8, 8);
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: auto; 
+  min-width: 200px; 
+}
+
+button:hover {
+  background-color: #f02b5c;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.art-image {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.art-image:hover {
+  transform: scale(1.05);
+}
+
+input {
+  padding: 12px;
+  margin: 15px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 400px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 14px; 
+    width: 90%; 
+  }
+
+  input {
+    width: 90%;
+    font-size: 10px; 
+  }
+
+  footer {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  h5, h6 {
+    font-size: 1.6rem;
+  }
+
+  button {
+    padding: 10px 10px;
+    font-size: 14px; 
+    width: 80%; 
+  }
+
+  input {
+    font-size: 14px; 
+    width: 80%; 
+  }
+}
+
+@media (min-width: 1024px) {
+  h1, h2 {
+    font-size: 1.9rem; 
+  }
+
+  button {
+    font-size: 18px; 
+    width: 240px; 
+  }
+
+  input {
+    font-size: 18px; 
+  }
+}
