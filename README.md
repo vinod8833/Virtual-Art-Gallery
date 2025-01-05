@@ -22,21 +22,32 @@ Step 1: Clone the Repository
 ```
 
 ``` bash
-    cd Virtual-Art-Gallery.git
+cd Virtual-Art-Gallery.git
 ```
 
 Step 2: Install Dependencies
 
-### npm install
+``` bash
+npm install
+```
 
 Step 3: Install Required Packages
-###  npm install react-flow-renderer
 
-### npm install axios
+``` bash
+npm install react-flow-renderer
+```
 
-### npm install dotenv
+``` bash
+npm install axios
+```
 
-### npm install web-vitals
+``` bash
+npm install dotenv
+```
+
+``` bash
+npm install web-vitals
+```
 
 Step 4: Set Up Environment Variables
 
@@ -44,27 +55,37 @@ REACT_APP_OPENAI_API_KEY=your-openai-api-key
 
 Step 5: Run the Project
 
-### npm start
+``` bash
+npm start
+```
 
 This will launch the app in development mode at http://localhost:3000. The page will reload automatically whenever you make changes.
 
 Step 6: Build the Project for Production
 
-### npm run build
+``` bash
+npm run build
+```
 
 Step 7: Deploy the Application
 
 
 Available Scripts
 
-### npm start
+``` bash
+npm start
+```
 
 : Runs the app in development mode. Open http://localhost:3000 to view it in your browser.
-### npm test 
+``` bash
+npm test 
+```
 
 Launches the test runner in interactive watch mode. This allows you to run tests and see results in real-time.
 
-### npm run build
+``` bash
+npm run build
+```
 
 : Builds the app for production to the build folder. It optimizes the app for the best performance and creates a minified version of the code ready for deployment.
 
@@ -85,5 +106,4 @@ https://vercel.com/docs
 https://docs.netlify.com/
 
 
-# Virtual-Art-Gallery
 # Virtual-Art-Gallery
