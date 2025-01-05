@@ -17,7 +17,7 @@ Setup Instructions
 
 Step 1: Clone the Repository
 
-# git clone https://github.com/vinod8833/Virtual-Art-Gallery.git
+``` git clone https://github.com/vinod8833/Virtual-Art-Gallery.git
 
 ### cd Virtual-Art-Gallery.git
 
